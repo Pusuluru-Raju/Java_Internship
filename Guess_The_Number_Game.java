@@ -22,7 +22,7 @@ public class Guess_The_Number_Game {
 		System.out.println("Guess the Number : ");         // asking the player enter the number
 		int guess = sc.nextInt();
 		int temp = (rand - guess);
-		System.out.println("Diff : "+temp);
+		// System.out.println("Diff : "+temp);
 		while(ch=='y'||ch=='Y')
 		{
 			
